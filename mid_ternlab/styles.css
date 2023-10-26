@@ -1,0 +1,264 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+
+  .logo {
+    cursor: pointer;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+.sidebar {
+  width: 20%;
+  height: 100vh; /* 100% of the viewport height */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+h2, p {
+  color: green;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.content {
+  margin-left: 20%; /* Adjusted to match the width of the sidebar */
+  padding: 20px;
+}
+.center-container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  .inline-images {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .inline-images img {
+    width: 100px; /* Adjust image width as needed */
+    height: auto;
+    margin: 0 10px; /* Adjust spacing between images as needed */
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  table {
+    width: 80%;
+    margin: 10px auto; /* Reduced margin for the table */
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    background-color: white;
+  }
+  
+  th, td {
+    padding: 8px; /* Reduced padding for cells */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #808080; /* Grey header color */
+    color: white;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .team-column {
+    width: 45%;
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+    
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #003300; /* Darker green */
+  }
+
+  .container {
+    background-color: white;
+    padding: 20px; /* Add padding for the white container */
+    margin: 0 auto; /* Center the container */
+    overflow: hidden; /* Clear floats inside the container */
+  }
+
+  .column {
+    width: 30%; /* Adjust column width as needed */
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  nav {
+    background-color: green;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  nav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px; /* Adjusted padding for buttons */
+    flex-grow: 1;
+  }
+
+  nav a:hover {
+    background-color: #006600;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px; /* Adjusted padding for dropdown button */
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  nav a, .dropdown:hover .dropbtn {
+    background-color: #004d00;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Increased image size */
+  nav img {
+    height: 70px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+  }
+
+  .container {
+    background-color: white;
+    padding: 20px; /* Add padding for the white container */
+  }
+
+  .column {
+    width: 30%; /* Adjust column width as needed */
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
