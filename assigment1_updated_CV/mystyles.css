@@ -1,0 +1,73 @@
+.right-div
+        {
+            
+            float:right;
+            width:970px;
+            background-color: lightblue;
+          
+            border-style: solid;
+            border-color:black;
+            
+        
+            
+        }
+        .left-div
+        {
+            background-color:darkblue;
+            width:260px;
+            float:left;
+            border-radius: 20px;
+            border-style:solid;
+            color:white;
+            border-color:black;
+        }
+        .lower-div
+        {
+            float:right;
+            width:970px;
+            height:2000px;
+            
+        }
+        .verticalLine {
+            height: 100px;
+            border-left: 1px solid #000900;
+            position: absolute;
+            
+            
+        }/*
+        .heading{
+            background-color: black;
+           
+            color:white;
+
+        }*/
+    
+
+       #img
+        {
+            width:100px;
+            margin-left:50px;
+            border-radius: 50px;
+        }
+        .experience
+        {
+            margin-right:20px;
+            margin-left:20px;
+            
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        div:hover{
+            background-color:antiquewhite;
+            color:black;
+        }
+        .icons
+        {
+            width:25px;
+            border-radius: 12.5px;
+        }
+      
+    
+       
+    
