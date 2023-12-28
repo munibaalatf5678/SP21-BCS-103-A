@@ -1,0 +1,79 @@
+<!-- admin.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Site</title>
+    <link rel="stylesheet" href="/css/books.css">
+    <!-- Include any necessary stylesheets or scripts here -->
+</head>
+<body>
+    <div class="topnav div-2"  style="background-color: darkgrey;">
+        <a class="active" href="/home">Home</a>
+        <a href="/blogPage">blogPage</a>
+        <a href="/add">Add books</a>
+        <a href="/admin">Admin Site</a>
+        <a href="/signup">SignUp</a>
+        <a href="/login">Login</a>
+       
+        
+        <a class="nav-link" href="/logout1">Logout</a>
+    
+    </div>
+    
+    <div class="container">
+        <% include('partials/header') %>
+          <h1 style="color: black; background-color: white; padding: 10px;">Admin Site</h1>
+        <img style="width:120px"src="./images/side10.jpg">
+        <img style="width:120px" src="./images/side6.jpg">
+        
+        <img style="width:120px" src="./images/novel3.jpeg">
+       
+        <img style="width:120px" src="./images/novel6.jpeg">
+        <img style="width:120px" src="./images/novel1.jpeg">
+        <img style="width:120px" src="./images/novel2.jpeg">
+        <img style="width:120px" src="./images/novel7.jpeg">
+        <img style="width:120px" src="./images/novel10.jpeg">
+        <img style="width:120px" src="./images/novel5.jpeg">
+        <img style="width:120px" src="./images/novel2.jpeg">
+        
+     
+        
+
+
+       </div>
+      
+    
+   
+    <div class="div-5" data-aos="zoom-in">
+      
+        
+        <!-- Famous Authors Section -->
+        <div style="margin-left: 100px; margin-right: 100px; margin-top: 20px;">
+            <h3 style="color: white; background-color: black; padding: 10px;">Famous Authors:</h3>
+            
+            <!-- Jk-Rowling Section -->
+            <div style="margin-left: 100px; margin-right: 100px; color: white; background-color: purple; margin-top: 20px;">
+                <h3>Jk-Rowling:</h3>
+                <img src="./images/auhtor1.jpeg" style="width: 200px; display: block; float: left; margin-right: 20px;">
+                <p>
+                    Joanne Rowling was born on 31st July 1965 at Yate General Hospital near Bristol, and grew up in Gloucestershire in England and in Chepstow, Gwent, in south-east Wales.
+                    Her father, Peter, was an aircraft engineer at the Rolls Royce factory in Bristol and her mother, Anne, was a science technician in the Chemistry department at Wyedean Comprehensive, where Jo herself went to school. Anne was diagnosed with multiple sclerosis when Jo was a teenager and died in 1990, before the Harry Potter books were published. Jo also has a younger sister, Di.
+                    The young Jo grew up surrounded by books. “I lived for books,’’ she has said. “I was your basic common-or-garden bookworm, complete with freckles and National Health spectacles.”
+                </p>
+            </div>
+            
+            <!-- Charles Dickens Section -->
+            <div style="margin-left: 100px; margin-right: 100px; color: white; background-color: blue; margin-top: 20px; overflow: hidden;">
+                <h3>Charles Dickens:</h3>
+                <img src="./images/author3.jpeg" style="width: 200px; display: block; float: left; margin-right: 20px; overflow: hidden;">
+                <p style="overflow: hidden;">
+                    In 1842, a parliamentary report was published, exploring the conditions of children who worked in mines. Dickens was horrified by what he read, and he initially wanted to write a public response to the report, to make more people aware of the terrible conditions of the working children. He is known for his regular use of satire, which he employed in order to make his sharp social commentary. He often used class idiom to mirror the resolutions of contemporary theater. Dickens made a point to develop names and motifs that would resonate with his readers and be easily remembered.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
