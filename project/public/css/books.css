@@ -1,0 +1,152 @@
+.div-1
+{
+    margin-left: 18px;
+    padding-left:40px;
+    padding-top:20px;
+     padding-bottom: 12px;;
+    margin-top:20px;
+  
+    background-color:navy;
+    background-image: url("./images/bg.jpg");
+    overflow: hidden;
+   
+    
+}
+.form
+{
+  margin-top:50px;
+  float:right;
+  width:40%;
+  height:300px;
+  border-radius:120px ;
+  border-style: bold;
+  border-color: black;
+  border-width: 20px;;
+  position:sticky;
+  margin-right:20px;
+  padding-top: 20px;
+  margin-bottom:50px;
+ 
+ 
+}
+
+.div-2
+{
+    margin-left: 18px;
+   
+
+ 
+   
+  
+   
+    overflow: hidden;
+   
+    
+}
+
+.topnav {
+background-color:whitesmoke;
+overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color:black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color:green;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #04AA6D;
+color: white;
+}
+.icon-bar
+{
+    float:right;
+    overflow: hidden;
+    margin-right:50px;
+}
+
+#pic2
+{
+    width:300px;
+}
+#pic9
+{
+width:250px;
+}
+#pic8
+{
+width:300px;
+}
+#pic5
+{
+width:300px;
+}
+.div-3
+{
+
+background-color: lightgrey;
+margin-left: 18px;
+ overflow: hidden;
+ background-image: url("./images/bg-8.jpg");
+ margin-bottom: 80px;
+  
+}
+.div-4
+{
+margin-top:50px;
+float:left;
+width:40%;
+text-align:center;
+padding:20px;
+border-width: 20px;
+border-color: black;
+border-style:bold;
+margin-bottom:50px;
+}.div-5
+{
+background-image: url("./images/bg-6.jpg");
+margin-left:50px;
+margin-right: 50px;
+padding-top:50px;
+padding-bottom:50px;
+}
+body{
+background-color: antiquewhite;
+}
+img:hover {
+transform: scale(1.1); 
+} button :hover{
+opacity: 0.7;
+}
+.myclass
+{
+    margin-left:325px;
+    margin-right:125px;
+    width:50%;
+    margin-top: 25px;
+    
+}.myclass2
+{
+    margin-left:100px;
+    width:40%;
+    margin-top:25px;
+    float:left;
+
+}
+
+#myclass3
+{
+    background-color:blue;;
+}

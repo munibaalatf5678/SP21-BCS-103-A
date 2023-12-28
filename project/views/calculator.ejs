@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ... include your existing head tags, links to CSS, etc. -->
+</head>
+<body>
+
+<div class="calculator-form">
+  <form action="/calculate" method="POST">
+    <div class="input-group">
+      <input type="text" name="operand1" placeholder="Operand 1" required>
+      <select name="operation" required>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <input type="text" name="operand2" placeholder="Operand 2" required>
+    </div>
+    <input type="submit" value="Calculate">
+  </form>
+
+  <% if (history && history.length > 0) { %>
+  <table>
+    <thead>
+      <tr>
+        <th>Operand1</th>
+        <th>Operation</th>
+        <th>Operand2</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% history.forEach(function(item) { %>
+      <tr>
+        <td><%= item.operand1 %></td>
+        <td><%= item.operation %></td>
+        <td><%= item.operand2 %></td>
+        <td><%= item.result %></td>
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+  <% } %>
+</div>
+
+<!-- ... rest of your body content ... -->
+</body>
+</html>

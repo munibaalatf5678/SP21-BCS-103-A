@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="/css/books.css">
+     
+     
+         
+           
+        
+        
+        
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" >
+   
+   <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+     
+      <script>
+        AOS.init();
+      </script>
+       <%- include('partials/header') %>
+      <div class="div-1"  style ="background-image: url('./images/bg-2.jpg');">
+        <div style="padding-bottom:20px" > <h2 style="color:black; display:inline">EBOOKS :</h2>
+            <input style="display:inline;width:400px; margin-left:400px;" type="text" placeholder="Search..">
+            <button style=" width:150px;border-radius:75px;background-color: black;color:white;display:inline">my basket</button>
+           </div>
+           
+        
+        <img id="pic2" data-aos="flip-left"src="./images/pic2.jpg" class="responsive">
+    <img id="pic9" data-aos="flip-left"src="./images/pic9.jpg">
+       
+            <img id="pic8" data-aos="flip-left"src="./images/pic8.jpg">
+            <img id="pic5"data-aos="flip-left" src="./images/pic5.jpg">
+           
+          
+  </div>
+</div>
+        </div>
+        <div class="div-4" data-aos="flip-down">
+>
+          <h3>click on the image to get access to all harrypotter novels</h3>
+           
+          <a href="https://www.goodreads.com/series/45175-harry-potter"><img src="./images/harrypotter.jpeg"></a>
+        </div>
+       
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Form Validation</title>
+          <!-- Include jQuery library -->
+          <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+          <!-- Include jQuery Validation plugin -->
+          <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+        </head>
+        <body>
+        
+        <div class="form">
+          <h3>Fill the form if you want to get access to our new stock!</h3>
+          <form id="myForm" action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" placeholder="Enter password" id="pwd" name="password">
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        
+        <script>
+          // Validate the form using jQuery Validation
+          $(document).ready(function () {
+            $("#myForm").validate({
+              rules: {
+                email: {
+                  required: true,
+                  email: true
+                },
+                password: {
+                  required: true,
+                  minlength: 6 // Example: set a minimum password length
+                }
+              },
+              messages: {
+                email: {
+                  required: "Please enter your email address",
+                  email: "Please enter a valid email address"
+                },
+                password: {
+                  required: "Please enter your password",
+                  minlength: "Your password must be at least 6 characters long"
+                }
+              }
+            });
+          });
+        </script>
+        
+     
+        
+        
+
+        <div class="container div-3">
+          <h3 style="color:white;background-color: black; margin-top: 20px;">Books available</h3>
+          <div class="row">
+              <div class="col-3 my-5">
+                  <div class="card" style="width:250px;" >
+                      <img style="height:200px;overflow: hidden;" data-aos="flip-right"src="./images/novel1.jpeg" class="card-img-top" alt="incorrect image">
+                     <div class="card-body">
+                      <h5 class="card-title">The believers</h5>
+                      <p class="card-text">Tragic and comic, witty and intense, The Believers is the story of a dysfunctional family forced by tragedy to confront their own personal demons. </p>
+                       <a href="https://en.wikipedia.org/wiki/The_Believers_(novel)" class="btn  btn-primary">click here</a>
+                  </div>
+                  </div>
+                  
+                  </div>
+  
+                  <div class="col-3 my-5">
+                      <div class="card"style="width:250px;">
+                          <img style="height:200px;overflow: hidden;" data-aos="flip-right"src="./images/novel2.jpeg" class="card-img-top" alt="incorrect image">
+                         <div class="card-body">
+                          <h5 class="card-title">The just mercy</h5>
+                          <p class="card-text">Book details · Publisher. One World · Publication date. August 18, 2015 · Dimensions. 5.2 x 0.8 x 7.98 inches  </p>
+                           <a href="https://www.amazon.com/Just-Mercy-Story-Justice-Redemption/dp/081298496X" class="btn  btn-primary">Click here</a>
+                      </div>
+                      </div>
+                      
+                      </div>
+  
+                  <div class="col-3  my-5">
+                      <div class="card" tyle="width:250px;">
+                          <img style="height:200px;overflow: hidden;" data-aos="flip-right"src="./images/novel3.jpeg" class="card-img-top" alt="incorrect image">
+                          <div class="card-body">
+                              <h5 class="card-title">The book thief</h5>
+                              <p class="card-text">The Book Thief is a 2013 war drama film directed by Brian Percival and starring Geoffrey Rush, Emily Watson, and Sophie Nélisse.</p>
+                              <a href="https://www.imdb.com/title/tt0816442/" class="btn btn-primary">Click me</a>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-3  my-5">
+                    <div class="card" tyle="width:250px;">
+                        <img style="height:200px;overflow: hidden;" data-aos="flip-right"src="./images/novel11.jpeg" class="card-img-top" alt="incorrect image">
+                        <div class="card-body">
+                            <h5 class="card-title">The Fifth Mountain</h5>
+                            <p class="card-text">The Fifth Mountain (Portuguese: O Monte Cinco) is the work of Brazilian author Paulo Coelho published in Brazil in 1996</p>
+                            <a href="https://en.wikipedia.org/wiki/The_Fifth_Mountain" class="btn btn-primary">click me</a>
+                        </div>
+                      </div>
+                </div>
+                </div>
+                <div class="row">
+                  <div class="col-3 my-5">
+                    <div class="card" style="width:250px;" >
+                        <img style="height:200px;overflow: hidden;" data-aos="flip-right"src="./images/novel4.jpeg" class="card-img-top" alt="incorrect image">
+                       <div class="card-body">
+                        <h5 class="card-title">The secret River</h5>
+                        <p class="card-text">To Thornhill, the Hawkesbury River is a "secret river" because its entrance from the bay into which it feeds is hard to find.</p>
+                         <a href="https://www.imdb.com/title/tt2298264/" class="btn  btn-primary">GO SOMEWHERE</a>
+                    </div>
+                    </div>
+                    
+                    </div>
+    
+                    <div class="col-3 my-5">
+                        <div class="card"style="width:250px;">
+                            <img style="height:200px;overflow: hidden;" data-aos="flip-right"src="./images/novel5.jpeg" class="card-img-top" alt="incorrect image">
+                           <div class="card-body">
+                            <h5 class="card-title">The Maze Runner</h5>
+                            <p class="card-text">In The Maze Runner, Thomas arrives in the Glade – home to fifty boys and surrounded on all sides by giant stone walls </p>
+                             <a href="https://www.imdb.com/title/tt1790864/" class="btn  btn-primary">Click me</a>
+                        </div>
+                        </div>
+                        
+                        </div>
+    
+                    <div class="col-3  my-5">
+                        <div class="card" tyle="width:250px;">
+                            <img style="height:200px;overflow: hidden;" data-aos="flip-right"src="./images/novel6.jpeg" class="card-img-top" alt="incorrect image">
+                            <div class="card-body">
+                                <h5 class="card-title">The Harry Potter</h5>
+                                <p class="card-text">Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard,</p>
+                                <a href="https://en.wikipedia.org/wiki/Harry_Potter" class="btn btn-primary">click me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3  my-5">
+                      <div class="card" tyle="width:250px;">
+                          <img style="height:200px;overflow: hidden;" data-aos="flip-right"src="./images/novel10.jpeg" class="card-img-top" alt="incorrect image">
+                          <div class="card-body">
+                              <h5 class="card-title">The Fifth Mountain</h5>
+                              <p class="card-text">The Fifth Mountain is a fictionalized account of the prophet Elijah's time between the rasing of the dead Phoenican boy to his return to Israel and the showdown ..</p>
+                              <a href="https://fazaia.edu.pk/uploads/library/paulo-coehlo-the-fifth-mountain---Unknown_1542994685.pdf" class="btn btn-primary">click me</a>
+                          </div>
+                      </div>
+                  </div>
+    
+                 
+    
+    </div>
+                </div>
+                </div>
+                
+  
+    
+    
+         <div class="div-5" data-aos="zoom-in"> 
+          <h3 style="color:white; background-color: black;">Famous Authors:</h3> 
+         <div  style="margin-left:100px;margin-right: 100px;color:white;background-color:purple;margin-top: 50px;">
+          <h3>Jk-Rowling:
+  
+          </h3>
+          <img src="./images/auhtor1.jpeg" style="width:200px; display:block;float:left">
+          <p >Joanne Rowling was born on 31st July 1965 at Yate General Hospital near Bristol, and grew up in Gloucestershire in England and in Chepstow, Gwent, in south-east Wales.
+
+            Her father, Peter, was an aircraft engineer at the Rolls Royce factory in Bristol and her mother, Anne, was a science technician in the Chemistry department at Wyedean Comprehensive, where Jo herself went to school. Anne was diagnosed with multiple sclerosis when Jo was a teenager and died in 1990, before the Harry Potter books were published.  Jo also has a younger sister, Di.
+            
+            The young Jo grew up surrounded by books. “I lived for books,’’ she has said. “I was your basic common-or-garden bookworm, complete with freckles and National Health spectacles.”
+          </p>
+          </div>
+          <div  style="margin-left:100px;margin-right: 100px;color:white;background-color: blue;margin-top: 50px;overflow: hidden;">
+            <h3>Charles Dickens:</h3>
+       
+          <img src="./images/author3.jpeg" style="width:200px; display:block;float:left;overflow: hidden;">
+          <p style="overflow: hidden;">
+            In 1842, a parliamentary report was published, exploring the conditions of children who worked in mines. Dickens was horrified by what he read, and he initially wanted to write a public response to the report, to make more people aware of the terrible conditions of the working children. He is known for his regular use of satire, which he employed in order to make his sharp social commentary. He often used class idiom to mirror the resolutions of contemporary theater. Dickens made a point to develop names and motifs that would resonate with his readers and be easily remembered.</p>
+      
+          </div></div>
+          <div id="carouselExampleDark" data-aos="zoom-in" class="carousel carousel-dark slide myclass">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./images/carosual4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/carousal2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/carousal3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div >
+
+          <div id="carouselExampleCaptions" class="carousel slide myclass2">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/autho2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Amazing</h5>
+                  <p>Here you will find the famous Authors.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/author3.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Phenomenal</h5>
+                  <p>This author is phenonemal in its aura</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/author4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Astonishing</h5>
+                  <p>This author is quite mesmerizing</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button></div>
+            <div style="float:right;margin-top:25px;margin-right:100px;" data-aos="zoom-in">
+                <h2>
+                    "click for all the john green novels"
+                    </h2><img src="./images/side10.jpg"></div>
+                </div>
+            
+
+           
+          
+          <div style="clear:both" data-aos="zoom-in" >
+           
+            <img  style="width:25%" src="./images/side6.jpg">
+            <img src="./images/sdie7.jpg">  <img    src="./images/fault_in_our_stars.jpg"></div>
+        
+
+        
+           
+        
+
+
+          <div  class="comments"  data-aos="zoom-in"style="margin-top:50px;clear: both; ;margin-left:100px;margin-right: 100px;background-color:antiquewhite">
+            <h3>Comments:</h3>
+          
+         
+          <img src="./images/dp.jpeg" style="width:100px;float:left;overflow: hidden;border-radius: 50px;display:inline ;margin-right:25px;"><h3>muniba altaf</h3><p style="margin-bottom:50px">oh wow this is very good!i really appreciate ypur work</p>
+          <div style="height:150px;background-color:peachpuff;overflow:hidden"><img src="./images/dp2.jpeg" style="width:100px;float:left;overflow: hidden;border-radius: 50px;display:inline"> <h3>Ayesha Hussain</h3><p  >yup!you are phenomenaly right</p></div>
+          </div></div></div>
+          <%- include('partials/footer') %>
+         
+    </body>
+</html>

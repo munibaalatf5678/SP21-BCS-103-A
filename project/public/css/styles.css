@@ -1,0 +1,81 @@
+body {
+    background-image: url("/bg6.jpg");
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#login-form {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 440px;
+    padding: 10px; /* Adjust the padding for better appearance */
+    margin-bottom: 12px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 12px;
+}
+
+#login-btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#myDiv {
+    background-color: lightgrey;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    size:900px;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: green;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.icon-bar {
+    float: right;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.div-2 {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
